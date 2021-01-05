@@ -12,8 +12,8 @@ To customize the recommendations, we create a engine that calculates the similar
 
 We use the casting, the director, the overview, the genre and the production company of the movies to calculate the similarity between them.
 To do that, we use the Cosine similarity which the formula is given by :
-```math
-cos (x,y) =\frac {x.y^T}{\lVert{x}\\rVert.\lVert{y}\rVert}
+```latex
+$cos (x,y) =\frac {x.y^T}{\lVert{x}\\rVert.\lVert{y}\rVert}$
 ```
 
 ## Application 
